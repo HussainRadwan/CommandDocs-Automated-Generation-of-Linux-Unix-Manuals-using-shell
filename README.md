@@ -37,3 +37,30 @@ This script automates the creation of documentation for Linux commands. It inclu
 ### Workflow Management:
 - initial_setup: Initially presents options to generate documentation for all commands, select specific commands, or input custom commands.
 - A comprehensive main menu loop provides various functionalities, including verification of generated documentation, command recommendation, manual search, and adding manuals for custom commands, with the option to exit the program.
+
+## Interacting with the project
+This project involves various choices and interfaces designed to facilitate user interaction and streamline workflow. Here's a detailed explanation of the choices available and the interfaces used in the project:
+
+### Main Choices
+1. Generate Documentation: Users can choose to generate documentation for all commands known to the system, for a selected subset of commands, or for custom commands that users specify.
+2. Verify Documentation: After generating documentation, users can verify the accuracy of the content by comparing the newly generated documents against existing ones or verify specific command documentation to ensure it's up-to-date and accurate.
+3. Recommend Commands: Based on user history or frequently used commands, the system can suggest relevant commands, which helps users discover new or related functionalities.
+4. Search in Manuals: Users can search within the generated documentation either by text within the manuals or specifically by command names. This feature enhances the usability of the documentation by making it easy to find information.
+5. Custom Command Interaction: Users can add documentation for new custom commands by providing the command name and an example of its usage, thus extending the utility of the tool.
+
+### Workflow Description
+- ### Initialization:
+  The script starts with an initial setup where users choose to generate documentation for all, selected, or custom commands.
+  ![image](https://github.com/HussainRadwan/CommandDocs-Automated-Generation-of-Linux-Unix-Manuals-using-shell/assets/161932786/bc6649d5-0721-434f-99e0-6518b656047b)
+- ### Main Menu Loop:
+  After initial setup, the script enters a loop offering various options like verifying documentation, recommending commands, searching within manuals, or adding new custom commands.
+  ![image](https://github.com/HussainRadwan/CommandDocs-Automated-Generation-of-Linux-Unix-Manuals-using-shell/assets/161932786/21a83a3b-6784-4966-8e84-be5fc4bd7b8d)
+- ### Selection and Execution:
+  Users make selections based on their needs (e.g., generating new documentation, verifying existing ones, or searching for specific details), and the script executes the appropriate functions
+  #### Example:
+  ![image](https://github.com/HussainRadwan/CommandDocs-Automated-Generation-of-Linux-Unix-Manuals-using-shell/assets/161932786/cdb06c45-c2bd-4549-a120-08281069d92b)
+- ### Review and Adjust:
+  Users can review the output, check for errors, and make further selections based on the feedback provided by the script.
+
+### This structured approach ensures that users can efficiently manage and utilize Linux/Unix command documentation, making the tool both powerful and user-friendly in a technical environment.
+  
