@@ -1,4 +1,4 @@
-# CommandDocs Automated Generation of Linux/Unix Manuals-using 
+# CommandDocs Automated Generation of Linux/Unix Manuals
 The primary goal of this project is to automate the generation of a comprehensive manual for Linux/Unix commands. This will be achieved through the development of scripts using Python or shell scripting. These scripts will create text files for each command, formatted according to a predefined template, which will facilitate consistent and efficient documentation.
 
 ## Code discription
