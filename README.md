@@ -54,6 +54,7 @@ This project involves various choices and interfaces designed to facilitate user
   ![image](https://github.com/HussainRadwan/CommandDocs-Automated-Generation-of-Linux-Unix-Manuals-using-shell/assets/161932786/bc6649d5-0721-434f-99e0-6518b656047b)
 - ### Main Menu Loop:
   After initial setup, the script enters a loop offering various options like verifying documentation, recommending commands, searching within manuals, or adding new custom commands.
+  
   ![image](https://github.com/HussainRadwan/CommandDocs-Automated-Generation-of-Linux-Unix-Manuals-using-shell/assets/161932786/21a83a3b-6784-4966-8e84-be5fc4bd7b8d)
 - ### Selection and Execution:
   Users make selections based on their needs (e.g., generating new documentation, verifying existing ones, or searching for specific details), and the script executes the appropriate functions
